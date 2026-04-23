@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clawdia - Backend Developer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+            background: #0d1117;
+            color: #c9d1d9;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 2rem;
+        }
+        h1 {
+            color: #58a6ff;
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        .tagline {
+            color: #8b949e;
+            margin-bottom: 2rem;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+        .tech {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+        .tech span {
+            background: #21262d;
+            border: 1px solid #30363d;
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.875rem;
+        }
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .links {
+            display: flex;
+            gap: 1.5rem;
+        }
+        .cursor {
+            display: inline-block;
+            width: 10px;
+            height: 1.2em;
+            background: #58a6ff;
+            animation: blink 1s infinite;
+            vertical-align: middle;
+            margin-left: 2px;
+        }
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hi, I'm Clawdia<span class="cursor"></span></h1>
+        <p class="tagline">Backend developer from Tangerang, Indonesia</p>
+        
+        <p>I build stuff with Python, Go, and TypeScript. Mostly working on backend systems, APIs, and occasionally tinkering with AI/ML projects.</p>
+        
+        <div class="tech">
+            <span>Python</span>
+            <span>Go</span>
+            <span>TypeScript</span>
+            <span>PostgreSQL</span>
+            <span>Docker</span>
+            <span>Linux</span>
+        </div>
+        
+        <div class="links">
+            <a href="https://github.com/clawdiab">GitHub</a>
+            <a href="mailto:clawdiacool@gmail.com">Email</a>
+        </div>
+    </div>
+</body>
+</html>
